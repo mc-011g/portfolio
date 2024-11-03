@@ -1,0 +1,170 @@
+.navbar-brand {
+  font-weight: bold;
+}
+
+#about-me {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  background-color: #cfe2ffa3;
+  text-align: center;
+}
+
+#skills {
+  padding-bottom: 100px;
+
+}
+
+#skills,
+#projects {
+  padding-top: 100px;
+}
+
+#projects {
+  background-color: #cfe2ffa3;
+  padding-bottom: 70px;
+}
+
+.project-image {
+  background-color: darkgray;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.skill {
+  width: 115px;
+  height: 115px;
+  box-shadow: rgba(109, 109, 109, 0.25) 2px 2px 4px 2px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.back-to-top {
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  width: 1em;
+  height: 1em;
+  font-size: 35px;
+  text-decoration: none;
+  color: black;
+}
+
+.back-to-top:hover {
+  color: #424649;
+  cursor: pointer;
+}
+
+.about-me-name {
+  font-size: 3.6em;
+  font-weight: 700;
+}
+
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-weight: bold;
+}
+
+.navbar-brand {
+  font-size: 1.5em;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.project h3 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.project-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.project-inner-container {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.project-content {
+  min-width: 250px;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.nav-link {
+  width: max-content;
+  font-size: large;
+}
+
+.skill-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.source-code-btn {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.source-code-btn-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.project-btn {
+  height: 50px;
+}
+
+.nav-icon {
+  width: 25px;
+  display: flex;
+}
+
+hr {
+  margin: 0.5rem;
+}
+
+ul {
+  text-align: start;
+}
+
+.project-btns {
+  display: flex;
+  flex-flow: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
