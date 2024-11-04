@@ -62,13 +62,11 @@ jobs:
       - name: Download artifact
         uses: actions/download-artifact@v4
         with:   
-          name: github-pages       
+          name: github-pages    
+          path: ./build
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
         with:
-          branch: master
-          folder: ./build
-          token: ${{ secrets.GITHUB_TOKEN }}     
-          
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./build    
