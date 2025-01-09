@@ -2,7 +2,7 @@ import LiveProjectButton from "./LiveProjectButton";
 import Project from "./Project";
 import SourceCodeButton from "./SourceCodeButton";
 import ecommerceImage from '../images/ecommerce-store.png';
-import inventoryImage from '../images/inventory-app.png';
+import inventoryImage from '../images/inventory-project-dashboard.png';
 import realTimeChatAppImage from '../images/real-time-chat-app.png';
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
