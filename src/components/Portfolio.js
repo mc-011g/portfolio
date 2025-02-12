@@ -1,9 +1,9 @@
-import ReturnToTopArrow from "./ReturnToTopArrow";
+import ReturnToTopArrow from "./ReturnToTopArrow.js";
 import { useRef } from "react";
-import CustomNavbar from "./CustomNavbar";
-import Projects from "./Projects";
-import Skills from "./Skills";
-import AboutMe from "./AboutMe";
+import CustomNavbar from "./CustomNavbar.js";
+import Projects from "./Projects.js";
+import Skills from "./Skills.js";
+import AboutMe from "./AboutMe.js";
 
 const Portfolio = () => {
 

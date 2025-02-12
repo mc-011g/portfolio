@@ -1,16 +1,20 @@
-const Project = ({ title, imageLink, imageAlt, children, id, liveProjectLink }) => {
+import { Col, Row } from "react-bootstrap";
+import ProjectCarousel from "./ProjectCarousel";
+
+const Project = ({ title, children, id }) => {
     return (
-        <div>
-            <div id={id} className="project-container mt-3">
-                <h3 className="mb-5 text-center">{title}</h3>
-                <a href={liveProjectLink} target="_blank"
-                    rel="noopener noreferrer">
-                    <img className="project-image img-fluid" src={imageLink} alt={imageAlt} />
-                </a>
-                <div className="mt-3">
-                    {children}
-                </div>
-            </div>
+        <div id={id} className="project-container mt-3">
+            <h3 className="mt-3 mb-5 project-title">{title}</h3>
+            <Row>
+                <Col xl={9} lg={12} >
+                    <ProjectCarousel id={id} />
+                </Col>
+                <Col xl={3} lg={0} >
+                    <div>
+                        {children}
+                    </div>
+                </Col>
+            </Row>
         </div>
     );
 };
