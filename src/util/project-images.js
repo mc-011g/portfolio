@@ -1,14 +1,16 @@
 const ProjectImages = (id) => {
 
     const ecommerceImages = [
-        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-all-products.png", alt: "Ecommerce app all products page" },
-        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-cart.png", alt: "Ecommerce app cart page" },
         { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-home.png", alt: "Ecommerce app home page" },
-        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-login.png", alt: "Ecommerce app login page" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-all-products.png", alt: "Ecommerce app all products page" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-category-athletic.png", alt: "Ecommerce app athletic category products page" },
         { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-product.png", alt: "Ecommerce app product page" },
-        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-profile.png", alt: "Ecommerce app profile page" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-product-added.png", alt: "Ecommerce app product added page" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-cart.png", alt: "Ecommerce app cart page" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-login.png", alt: "Ecommerce app login page" },
         { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-register.png", alt: "Ecommerce app register page" },
-        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-search.png", alt: "Ecommerce app search results " }
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-verify-email.png", alt: "Ecommerce app verify email" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/ecommerce-profile.png", alt: "Ecommerce app profile page" },
     ]
 
     const inventoryImages = [
