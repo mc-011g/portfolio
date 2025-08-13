@@ -26,8 +26,8 @@ const ProjectImages = (id) => {
     ]
 
     const chatAppImages = [
-        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/real-time-chat-app.png", alt: "Chat app chat page" },
-        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/chat-app-participants.png", alt: "Chat app group participants" }
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/real-time-chat-app-chat-page.png", alt: "Chat app chat page" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/real-time-chat-app-participants-list.png", alt: "Chat app group participants" }
     ]
 
     if (id === 'ecommerceApp') {

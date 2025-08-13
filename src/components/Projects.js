@@ -104,7 +104,7 @@ const Projects = () => {
 
                 <Project title="Real Time Chat App"
                     imageAlt="Real-time chat app image"
-                    liveProjectLink="https://chatapp-hqh3fhbhcqetfgd2.westus2-01.azurewebsites.net/"
+                    liveProjectLink="https://real-time-chat-app-4c9c5.web.app/"
                     id="chatApp">
                     <b>Summary: </b>
                     <hr />
@@ -132,7 +132,7 @@ const Projects = () => {
                     </ul>
                     <div className="project-btns">
                         <SourceCodeButton sourceCodeLink='https://github.com/mc-011g/real-time-chat-app' />
-                        <LiveProjectButton liveProjectLink='https://chatapp-hqh3fhbhcqetfgd2.westus2-01.azurewebsites.net/' />
+                        <LiveProjectButton liveProjectLink='https://real-time-chat-app-4c9c5.web.app/' />
                     </div>
                 </Project>
             </Container>
