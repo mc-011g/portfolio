@@ -109,24 +109,24 @@ const Projects = () => {
                     <b>Summary: </b>
                     <hr />
                     <p>This real time chat application allows users to create an account,
-                        create a room, and then send an invitation link to let other users join their
-                        room.
+                        create a group, and then send an invitation link to let other users join their
+                        group.
                     </p>
-                    <p> Chat messaging is in real time as well as notifications. In addition to Spring security, a JWT token is also used for
-                        authentication for the web socket connection and API.
+                    <p> Chat messaging is in real time as well as notifications by using Socket.IO. Firebase Auth is used for authentication. The project's back-end is deployed using Google Cloud and the front-end uses Firebase for deployment.
                     </p>
                     <b>Technologies used</b>
                     <hr></hr>
                     <ul className="text-start">
-                        <li>Java</li>
-                        <li>Web sockets</li>
-                        <li>Spring Boot</li>
-                        <li>React JS</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>Socket.IO</li>
+                        <li>Express JS</li>
+                        <li>React JS</li>                     
                         <li>HTML</li>
                         <li>CSS</li>
-                        <li>JavaScript</li>
                         <li>MongoDB Atlas</li>
-                        <li>Azure</li>
+                        <li>Firebase</li>
+                        <li>Google Cloud</li>
                         <li>GitHub</li>
                         <li>GitHub Actions</li>
                     </ul>
