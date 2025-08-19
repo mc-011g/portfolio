@@ -9,6 +9,42 @@ const Projects = () => {
             <h1 className="section-title">Projects</h1>
 
             <Container>
+                <Project title="Real Time Chat App"
+                    imageAlt="Real-time chat app image"
+                    liveProjectLink="https://real-time-chat-app-4c9c5.web.app/"
+                    id="chatApp">
+                    <b>Summary: </b>
+                    <hr />
+                    <p>This real time chat application allows users to create an account,
+                        create a group, and then send an invitation link to let other users join their
+                        group.
+                    </p>
+                    <p>Chat messaging is in real time as well as notifications by using Socket.IO. Firebase Auth is used for authentication. The project's back-end is deployed using Google's Cloud Run platform and the front-end uses Firebase Hosting for deployment.
+                    </p>
+                    <b>Technologies used</b>
+                    <hr></hr>
+                    <ul className="text-start">
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>Socket.IO</li>
+                        <li>Express JS</li>
+                        <li>React JS</li>
+                        <li>Redux</li>
+                        <li>HTML</li>
+                        <li>Tailwind CSS</li>
+                        <li>MongoDB Atlas</li>
+                        <li>Firebase Hosting</li>
+                        <li>Firebase Auth</li>
+                        <li>Google Cloud</li>
+                        <li>GitHub</li>
+                        <li>GitHub Actions</li>
+                    </ul>
+                    <div className="project-btns">
+                        <SourceCodeButton sourceCodeLink='https://github.com/mc-011g/real-time-chat-app/tree/nodejs-backend' />
+                        <LiveProjectButton liveProjectLink='https://real-time-chat-app-4c9c5.web.app/' />
+                    </div>
+                </Project>
+
                 <Project title="NextJS Ecommerce Application"
                     id="ecommerceApp">
                     <b>Summary: </b>
@@ -90,6 +126,7 @@ const Projects = () => {
                         <li>Thymeleaf</li>
                         <li>HTML</li>
                         <li>CSS</li>
+                        <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>MongoDB Atlas</li>
                         <li>Azure</li>
@@ -99,40 +136,6 @@ const Projects = () => {
                     <div className="project-btns">
                         <SourceCodeButton sourceCodeLink='https://github.com/mc-011g/Inventory-Management-App' />
                         <LiveProjectButton liveProjectLink='https://inventory-management-app-frhqd8ebcecug0hz.westus2-01.azurewebsites.net/login' />
-                    </div>
-                </Project>
-
-                <Project title="Real Time Chat App"
-                    imageAlt="Real-time chat app image"
-                    liveProjectLink="https://real-time-chat-app-4c9c5.web.app/"
-                    id="chatApp">
-                    <b>Summary: </b>
-                    <hr />
-                    <p>This real time chat application allows users to create an account,
-                        create a group, and then send an invitation link to let other users join their
-                        group.
-                    </p>
-                    <p> Chat messaging is in real time as well as notifications by using Socket.IO. Firebase Auth is used for authentication. The project's back-end is deployed using Google Cloud and the front-end uses Firebase for deployment.
-                    </p>
-                    <b>Technologies used</b>
-                    <hr></hr>
-                    <ul className="text-start">
-                        <li>JavaScript</li>
-                        <li>TypeScript</li>
-                        <li>Socket.IO</li>
-                        <li>Express JS</li>
-                        <li>React JS</li>                     
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>MongoDB Atlas</li>
-                        <li>Firebase</li>
-                        <li>Google Cloud</li>
-                        <li>GitHub</li>
-                        <li>GitHub Actions</li>
-                    </ul>
-                    <div className="project-btns">
-                        <SourceCodeButton sourceCodeLink='https://github.com/mc-011g/real-time-chat-app' />
-                        <LiveProjectButton liveProjectLink='https://real-time-chat-app-4c9c5.web.app/' />
                     </div>
                 </Project>
             </Container>

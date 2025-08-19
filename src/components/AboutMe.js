@@ -4,12 +4,12 @@ const AboutMe = () => {
     return (
         <div id="about-me">
             <div className="about-me-name">Matthew Carmichael</div>
-            <h3 className="py-3">I am a full-stack web developer that creates dynamic and responsive web applications
-            </h3>
+            <p className="py-3 fs-3">I am a full-stack web developer that creates dynamic and responsive web applications.
+            </p>
             <div>
                 <a href="#projects">
-                    <Button variant="outline-dark" className="mt-3" id="navigate-to-projects">
-                        See my projects
+                    <Button variant="dark" className="mt-3 project-btn rounded-pill" id="navigate-to-projects">
+                        See My Projects
                     </Button>
                 </a>
             </div>

@@ -101,6 +101,18 @@
   font-weight: bold;
 }
 
+.skills-container {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 15px;
+  height: 350px;
+  width: 400px;
+  box-shadow: 1px 1px 5px rgba(1, 1, 1, 0.30);
+}
+
 .project-container {
   background-color: white;
   padding: 20px;

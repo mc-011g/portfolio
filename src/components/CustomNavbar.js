@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 
 const CustomNavbar = () => {
     return (
-        <Navbar expand="md" sticky="top" className="bg-white">
+        <Navbar expand="md" sticky="top" className="bg-white shadow-sm">
             <Container>
                 <Navbar.Brand href="#">Matthew Carmichael</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

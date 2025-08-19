@@ -5,8 +5,8 @@ const LiveProjectButton = ({ liveProjectLink }) => {
         <>
             <a href={liveProjectLink}
                 target="_blank" rel="noopener noreferrer">
-                <Button variant="dark" className="project-btn">
-                    Live project
+                <Button variant="dark" className="project-btn rounded-pill">
+                    Live Project
                 </Button>
             </a>
         </>
