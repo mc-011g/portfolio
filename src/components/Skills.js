@@ -8,7 +8,7 @@ const Skills = () => {
 
                 <div className="d-flex flex-wrap flex-row gap-4 justify-content-center">
 
-                    <div className="skills-container">
+                    <div className="skills-container shadow">
                         <div className="d-flex flex-row gap-5">
                             <i className="bi bi-window fs-1" />
                             <div>
@@ -46,7 +46,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="skills-container">
+                    <div className="skills-container shadow">
                         <div className="d-flex flex-row gap-5">
                             <i class="bi bi-server fs-1"></i>
                             <div>
@@ -75,7 +75,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="skills-container">
+                    <div className="skills-container shadow">
                         <div className="d-flex flex-row gap-5">
                             <i class="bi bi-database fs-1"></i>
                             <div>
@@ -98,7 +98,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="skills-container">
+                    <div className="skills-container shadow">
                         <div className="d-flex flex-row gap-5">
                             <i class="bi bi-cloud-fill fs-1"></i>
                             <div>
@@ -127,7 +127,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="skills-container">
+                    <div className="skills-container shadow">
                         <div className="d-flex flex-row gap-5">
                             <i class="bi bi-clipboard2-check fs-1"></i>
                             <div>
@@ -147,7 +147,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="skills-container">
+                    <div className="skills-container shadow">
                         <div className="d-flex flex-row gap-5">
                             <i class="bi bi-git fs-1"></i>
                             <div>

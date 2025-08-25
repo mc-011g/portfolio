@@ -4,6 +4,7 @@ import CustomNavbar from "./CustomNavbar.js";
 import Projects from "./Projects.js";
 import Skills from "./Skills.js";
 import AboutMe from "./AboutMe.js";
+import Contact from "./Contact.js";
 
 const Portfolio = () => {
 
@@ -19,6 +20,7 @@ const Portfolio = () => {
             <AboutMe />
             <Skills />
             <Projects />
+            <Contact />
             <ReturnToTopArrow returnToTop={returnToTop} ></ReturnToTopArrow>
         </>
     );

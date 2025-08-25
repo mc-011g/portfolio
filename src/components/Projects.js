@@ -9,6 +9,30 @@ const Projects = () => {
             <h1 className="section-title">Projects</h1>
 
             <Container>
+                <Project title="Stampede Security Inc. Website"
+                    imageAlt="Stampede Security Inc. website landing page hero image"
+                    liveProjectLink="https://www.stampedesecurity.com/"
+                    id="stampedeSecurityIncWebsite">
+                    <b>Summary: </b>
+                    <hr />
+                    <p>This is a Next.js website I created for my family's security system installation business.</p>
+                    <p>The project is deployed and hosted using Vercel, and the contact form submission emails are sent using Resend.</p>
+                    <b>Technologies used:</b>
+                    <hr></hr>
+                    <ul className="text-start">
+                        <li>Next.js</li>
+                        <li>TypeScript</li>
+                        <li>React JS</li>
+                        <li>Tailwind CSS</li>
+                        <li>Vercel</li>
+                        <li>Resend</li>
+                        <li>GitHub</li>
+                    </ul>
+                    <div className="project-btns">
+                        <LiveProjectButton liveProjectLink='https://www.stampedesecurity.com/' />
+                    </div>
+                </Project>
+
                 <Project title="Real Time Chat App"
                     imageAlt="Real-time chat app image"
                     liveProjectLink="https://real-time-chat-app-4c9c5.web.app/"
@@ -45,7 +69,7 @@ const Projects = () => {
                     </div>
                 </Project>
 
-                <Project title="NextJS Ecommerce Application"
+                <Project title="NextJS Ecommerce Website"
                     id="ecommerceApp">
                     <b>Summary: </b>
                     <hr />
@@ -85,7 +109,7 @@ const Projects = () => {
                         </li>
                         <li>
                             <p>
-                                Emails will be sent from 'matthew@matthewcarmichael.pro', they may end up in your spam folder.
+                                Emails will be sent from 'no-reply@matthewcarmichael.pro', they may end up in your spam folder.
                             </p>
                         </li>
                         <li>

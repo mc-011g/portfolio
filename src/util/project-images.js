@@ -30,12 +30,23 @@ const ProjectImages = (id) => {
         { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/real-time-chat-app-participants-list.png", alt: "Chat app group participants" }
     ]
 
+    const stampedeSecurityIncWebsiteImages = [
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/stampede-security-inc-home-page.png", alt: "Stampede Security Inc. website home page" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/stampede-security-inc-about-us-page.png", alt: "Stampede Security Inc. website about us page" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/stampede-security-inc-home-security-cameras-section.png", alt: "Stampede Security Inc. website home security cameras section" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/stampede-security-inc-resources-page.png", alt: "Stampede Security Inc. website resources page" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/stampede-security-inc-faqs-section.png", alt: "Stampede Security Inc. website FAQs section" },
+        { imgLink: "https://reactecommerceapp.blob.core.windows.net/images/stampede-security-inc-contact-us-page.png", alt: "Stampede Security Inc. website contact us page" },
+    ]
+
     if (id === 'ecommerceApp') {
         return ecommerceImages;
     } else if (id === 'inventoryApp') {
         return inventoryImages;
     } else if (id === 'chatApp') {
         return chatAppImages;
+    } else if (id === 'stampedeSecurityIncWebsite') {
+        return stampedeSecurityIncWebsiteImages;
     } else {
         return [];
     }
