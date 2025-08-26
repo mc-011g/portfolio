@@ -39,13 +39,24 @@ const Projects = () => {
                     id="chatApp">
                     <b>Summary: </b>
                     <hr />
-                    <p>This real time chat application allows users to create an account,
+                    <p>
+                        This real time chat application allows users to create an account,
                         create a group, and then send an invitation link to let other users join their
                         group.
                     </p>
-                    <p>Chat messaging is in real time as well as notifications by using Socket.IO. Firebase Auth is used for authentication. The project's back-end is deployed using Google's Cloud Run platform and the front-end uses Firebase Hosting for deployment.
+                    <p>
+                        Chat messaging is in real time as well as notifications by using Socket.IO. Firebase Auth is used for authentication.
                     </p>
-                    <b>Technologies used</b>
+                    <p>
+                        Testing includes unit and integration tests using Vitest. Cypress was used for end-to-end tests that cover main user flows.
+                    </p>
+                    <p>
+                        The project uses GitHub Actions for running all the tests, as well as building and deploying the front and back-end.
+                    </p>
+                    <p>
+                        The back-end is deployed using Google's Cloud Run platform and the front-end uses Firebase Hosting.
+                    </p>
+                    <b>Technologies used:</b>
                     <hr></hr>
                     <ul className="text-start">
                         <li>JavaScript</li>
@@ -54,7 +65,6 @@ const Projects = () => {
                         <li>Express JS</li>
                         <li>React JS</li>
                         <li>Redux</li>
-                        <li>HTML</li>
                         <li>Tailwind CSS</li>
                         <li>MongoDB Atlas</li>
                         <li>Firebase Hosting</li>
@@ -62,6 +72,8 @@ const Projects = () => {
                         <li>Google Cloud</li>
                         <li>GitHub</li>
                         <li>GitHub Actions</li>
+                        <li>Vitest</li>
+                        <li>Cypress</li>
                     </ul>
                     <div className="project-btns">
                         <SourceCodeButton sourceCodeLink='https://github.com/mc-011g/real-time-chat-app/tree/nodejs-backend' />
@@ -76,6 +88,12 @@ const Projects = () => {
                     <p>This is an ecommerce website that sells shoes and boots.
                         It features product browsing, filtering, cart functionality, user account, email verification,
                         password resets, authentication and authorization, and integration with Stripe as the payment processor to simulate payments.
+                    </p>
+                    <p>
+                        Testing includes unit and integration tests using Jest. Cypress was used for end-to-end tests that cover main user flows.
+                    </p>
+                    <p>
+                        Github Actions is used for only running the tests, while the project is deployed with Vercel.
                     </p>
                     <b>Technologies used: </b>
                     <hr />
@@ -141,8 +159,10 @@ const Projects = () => {
                     id="inventoryApp">
                     <b>Summary: </b>
                     <hr />
-                    <p>Users can create and manage products, categories, orders, and view key metrics. </p>
-                    <b>Technologies used</b>
+                    <p>Users can create and manage products, categories, orders, and view key metrics.</p>
+                    <p>Spring Security is used for authentication and authorization. </p>
+                    <p>GitHub Actions is used to build and deploy the project to Azure.</p>
+                    <b>Technologies used:</b>
                     <hr />
                     <ul className="text-start">
                         <li>Java</li>
@@ -153,7 +173,7 @@ const Projects = () => {
                         <li>Bootstrap</li>
                         <li>JavaScript</li>
                         <li>MongoDB Atlas</li>
-                        <li>Azure</li>
+                        <li>Microsoft Azure</li>
                         <li>GitHub</li>
                         <li>GitHub Actions</li>
                     </ul>
