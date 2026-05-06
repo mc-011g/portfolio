@@ -17,11 +17,12 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 flex-row gap-[24px] items-center">
+                <div className="grid grid-cols-2 flex-row gap-[16px] items-center">
                     <a href="#about-me" className="h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition duration-300">About Me</a>
-                    <a href="#skills" className="h-[32px]  hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Skills</a>
+                    <a href="#skills" className="h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Skills</a>
                     <a href="#projects" className="h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Projects</a>
-                    <a href="#contact-me" className=" h-[32px]  hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Contact Me</a>
+                    <a href="#contact-me" className=" h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Contact Me</a>
+                    <a href="/privacy-notice" className="h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Privacy Notice</a>
                 </div>
 
                 <div className="hidden md:flex flex-row gap-[24px] items-center">
