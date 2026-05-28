@@ -16,7 +16,7 @@ const Home = () => {
                         <div className='flex flex-col gap-6 lg:gap-[32px] flex-1'>
 
                             <h1 className='text-[36px]/[36px] md:text-[48px]/[48px] lg:text-[60px]/[60px] font-bold w-full'>Matthew Carmichael</h1>
-                            <p className='text-[20px]/[24px] md:text-[24px]/[32px] lg:text-[30px]/[40px] text-gray-800'>I am a full-stack <span className='font-bold'>web developer</span> with a focus in developing
+                            <p className='text-[20px]/[24px] md:text-[24px]/[32px] lg:text-[30px]/[40px] text-gray-800'>I am a  <span className='font-bold'>full-stack web developer</span> with a focus in developing
                                 <span className='font-bold'> React.js</span> and <span className='font-bold'>NextJS</span> projects.</p>
 
                             <a className='font-bold cursor-pointer rounded-full text-indigo-50 px-[24px] py-[16px] w-fit transition bg-indigo-600 hover:bg-indigo-800' href="#projects">
@@ -50,7 +50,7 @@ const Home = () => {
                 absolute rounded-[8px]
                 w-110 sm:w-110 md:w-70 lg:w-100 xl:w-125 shadow-md/65
                 '>
-                                    <img src='https://reactecommerceapp.blob.core.windows.net/images/nextjs-inventory-app-dashboard.png'
+                                    <img src='https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-dashboard.png'
                                         className='object-cover rounded-[8px]' alt='NextJS Inventory App Dashboard'
                                     />
                                 </div>
@@ -162,6 +162,44 @@ const Home = () => {
                     <h2 id="projects-section-heading" className='text-[30px]/[30px] md:text-[36px]/[36px] lg:text-[48px]/[48px] mb-[16px] font-bold'>Projects</h2>
 
                     <Project
+                        id='personal-finance-management-app'
+                        liveProjectLink="https://auth-development-4c064.web.app"
+                        imageLinks={[
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-dashboard.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-add-transaction.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-transactions.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-budgets.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-categories.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-categories-delete.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-financial-accounts.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-financial-accounts-edit.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-account-setup-1.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-categories-2.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-account-setup-3.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-transactions-4.png",
+                            "https://reactecommerceapp.blob.core.windows.net/images/personal-finance-app-profile.png"
+                        ]}
+                        sourceCodeLink="https://github.com/mc-011g/Personal-Finance-Management-App"
+                        summary={[
+                            "This is a personal finance management app that uses a Java Spring Boot back-end with a React front-end.",
+                            "The app allows users to record transactions and financial accounts, and create budgets and categories to track their spending per month.",
+                            "The dashboard displays key metrics calculated with the user's financial data."
+                        ]}
+                        title="Personal Finance Management App"
+                        skills={[
+                            "React",
+                            "TypeScript",
+                            "Tailwind CSS",
+                            "Java",
+                            "Spring Boot",
+                            "Google Cloud Run",
+                            "Firebase",
+                            "GitHub & GitHub Actions",
+                            "Neon Auth & Neon DB"
+                        ]}>
+                    </Project>
+
+                    <Project
                         id='nextjs-inventory-app'
                         liveProjectLink="https://nextjs-inventory-app-rose.vercel.app/"
                         imageLinks={[
@@ -247,8 +285,7 @@ const Home = () => {
                             "Firebase Hosting",
                             "Firebase Auth",
                             "Google Cloud",
-                            "GitHub",
-                            "GitHub Actions",
+                            "GitHub & GitHub Actions",                       
                             "Vitest"
                         ]}
                     >
