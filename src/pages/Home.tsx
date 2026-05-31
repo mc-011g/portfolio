@@ -9,17 +9,17 @@ const Home = () => {
 
     return (
 
-        <div>
+        <div className="dark:bg-gray-800 dark:text-gray-100">
             <header className='scroll-mt-[112px] sm:scroll-mt-[96px] mt-[112px] sm:mt-[96px]' id='about-me'>
-                <Container>
+                <Container dark={false}>
                     <div className='flex flex-col md:flex-row gap-[32px] py-[32px] items-center'>
                         <div className='flex flex-col gap-6 lg:gap-[32px] flex-1'>
 
                             <h1 className='text-[36px]/[36px] md:text-[48px]/[48px] lg:text-[60px]/[60px] font-bold w-full'>Matthew Carmichael</h1>
-                            <p className='text-[20px]/[24px] md:text-[24px]/[32px] lg:text-[30px]/[40px] text-gray-800'>I am a  <span className='font-bold'>full-stack web developer</span> with a focus in developing
+                            <p className='text-[20px]/[24px] md:text-[24px]/[32px] lg:text-[30px]/[40px] text-gray-800 dark:text-gray-100'>I am a  <span className='font-bold'>full-stack web developer</span> with a focus in developing
                                 <span className='font-bold'> React.js</span> and <span className='font-bold'>NextJS</span> projects.</p>
 
-                            <a className='font-bold cursor-pointer rounded-full text-indigo-50 px-[24px] py-[16px] w-fit transition bg-indigo-600 hover:bg-indigo-800' href="#projects">
+                            <a className='font-bold cursor-pointer rounded-full dark:text-white text-indigo-50 px-[24px] py-[16px] w-fit transition bg-indigo-600 dark:bg-indigo-500 hover:bg-indigo-800 dark:hover:bg-indigo-600' href="#projects">
                                 See my Projects
                             </a>
                         </div>
@@ -60,19 +60,19 @@ const Home = () => {
                 </Container>
             </header>
 
-            <section aria-labelledby='technical-skills-heading' className='bg-gray-50 scroll-mt-[112px] sm:scroll-mt-[96px]' id='skills'>
-                <Container>
+            <section aria-labelledby='technical-skills-heading' className='dark:bg-gray-900 dark:text-gray-100 bg-gray-50 scroll-mt-[112px] sm:scroll-mt-[96px]' id='skills'>
+                <Container dark={true}>
                     <div className='flex flex-col gap-[32px] flex-1'>
                         <h2 id="technical-skills-heading" className='
             text-[30px]/[30px] md:text-[36px]/[36px] lg:text-[48px]/[48px] 
-            mb-[16px] font-bold w-full text-gray-950
-            '>Technical Skills</h2>
+            mb-[16px] font-bold w-full
+                       '>Technical Skills</h2>
 
                         <div className='grid grid sm:grid-cols-2 md:grid-cols-3 gap-[32px]'>
                             <SkillCard>
                                 <WindowIcon className='size-[64px] min-w-[32px] min-h-[32px]' />
                                 <div className='flex flex-col gap-[24px]'>
-                                    <h3 className='text-[24px]/[24px] md:text-[30px]/[30px] lg:text-[36px]/[36px] '>Front-End</h3>
+                                    <h3 className='text-[24px]/[24px] md:text-[30px]/[30px] lg:text-[36px]/[36px]'>Front-End</h3>
                                     <ul className='list-disc ml-[20px]'>
                                         <li>NextJS</li>
                                         <li>React.js</li>
@@ -158,7 +158,7 @@ const Home = () => {
             </section>
 
             <section aria-labelledby='projects-section-heading' className='scroll-mt-[112px] sm:scroll-mt-[96px]' id='projects'>
-                <Container>
+                <Container dark={false}>
                     <h2 id="projects-section-heading" className='text-[30px]/[30px] md:text-[36px]/[36px] lg:text-[48px]/[48px] mb-[16px] font-bold'>Projects</h2>
 
                     <Project
@@ -285,7 +285,7 @@ const Home = () => {
                             "Firebase Hosting",
                             "Firebase Auth",
                             "Google Cloud",
-                            "GitHub & GitHub Actions",                       
+                            "GitHub & GitHub Actions",
                             "Vitest"
                         ]}
                     >
@@ -379,8 +379,8 @@ const Home = () => {
                 </Container>
             </section>
 
-            <section aria-labelledby='contact-me-heading' className='bg-gray-100' id='contact-me'>
-                <Container>
+            <section aria-labelledby='contact-me-heading' id='contact-me'>
+                <Container dark={true}>
                     <div className='mx-auto text-center flex flex-col gap-[32px] lg:gap-[48px]'>
                         <h2 id="contact-me-heading" className='font-bold text-[30px]/[30px] md:text-[36px]/[36px] lg:text-[48px]/[48px] mb-[16px]'>Contact Me</h2>
                         <p className='text-[18px]/[18px] md:text-[20px]/[20px] lg:text-[24px]/[24px]'>m.carmichael235@gmail.com</p>

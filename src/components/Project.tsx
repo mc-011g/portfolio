@@ -41,7 +41,7 @@ export const Project = ({ title, skills, summary, usage, liveProjectLink, source
 
                 <div className="flex flex-row gap-6 items-center">
 
-                    <button aria-label="Select previous image button" type="button" className="cursor-pointer hover:bg-gray-300 rounded-full p-1" onClick={() => handleChangeSelectedImage(selectedImageIndex - 1)}>
+                    <button aria-label="Select previous image button" type="button" className="cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-600  rounded-full p-1" onClick={() => handleChangeSelectedImage(selectedImageIndex - 1)}>
                         <ArrowLeftIcon className="size-6" />
                     </button>
 
@@ -51,7 +51,7 @@ export const Project = ({ title, skills, summary, usage, liveProjectLink, source
                         )}
                     </div>
 
-                    <button aria-label="Select next image button" type="button" className="cursor-pointer hover:bg-gray-300 rounded-full p-1" onClick={() => handleChangeSelectedImage(selectedImageIndex + 1)}>
+                    <button aria-label="Select next image button" type="button" className="cursor-pointer hover:bg-gray-300 dark:hover:bg-gray-600  rounded-full p-1" onClick={() => handleChangeSelectedImage(selectedImageIndex + 1)}>
                         <ArrowRightIcon className="size-6" />
                     </button>
 

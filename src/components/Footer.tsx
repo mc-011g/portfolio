@@ -1,7 +1,7 @@
 export const Footer = () => {
 
     return (
-        <footer className="bg-white">
+        <footer className="dark:bg-gray-800 bg-white">
             <div className="mx-auto px-[16px] py-[48px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] flex flex-row justify-between items-center flex-wrap gap-[24px]">
 
                 <div className="flex flex-col gap-[24px]">

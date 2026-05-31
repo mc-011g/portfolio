@@ -10,7 +10,7 @@ export const Navbar = () => {
     }
 
     return (
-        <div className={`fixed w-full top-0 shadow-md bg-white z-10 ${!dropdown && 'h-[112px] sm:h-[96px]'} flex justify-center`}>
+        <div className={`dark:bg-gray-800 fixed w-full top-0 shadow-md dark:shadow-gray-300/15 bg-white z-10 ${!dropdown && 'h-[112px] sm:h-[96px]'} flex justify-center`}>
 
             <nav className="w-full px-[16px] py-[24px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] flex flex-col lg:flex-row justify-between lg:items-center gap-[24px]">
                 <a href="/#about-me" className="hidden lg:block text-[36px]/[36px] font-bold">Matthew Carmichael</a>

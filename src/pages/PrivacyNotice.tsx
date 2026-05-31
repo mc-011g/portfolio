@@ -3,15 +3,15 @@ import { Container } from "../components/Container";
 const PrivacyNotice = () => {
 
     return (
-        <div>
-            <header className='scroll-mt-[112px] sm:scroll-mt-[96px] mt-[112px] sm:mt-[96px]'>
-                <Container>
+        <div className="dark:bg-gray-800 h-[calc(100vh-96px)]">
+            <header className='scroll-mt-[112px] sm:scroll-mt-[96px] mt-[112px] sm:mt-[96px] dark:bg-gray-800'>
+                <Container dark={false}>
                     <h1 className='text-[36px]/[36px] md:text-[48px]/[48px] lg:text-[60px]/[60px] font-bold w-full'>Privacy Notice</h1>
                 </Container>
             </header>
 
-            <section aria-label='privacy-notice' className='bg-gray-50 scroll-mt-[112px] sm:scroll-mt-[96px]' id='privacy-notice'>
-                <Container>
+            <section aria-label='privacy-notice' className='dark:bg-gray-800 scroll-mt-[112px] sm:scroll-mt-[96px]' id='privacy-notice'>
+                <Container dark={false}>
                     <p className="mb-[24px]">
                         This website uses privacy-friendly analytics provided by Vercel Web Analytics to understand how visitors use the site.
                     </p>
