@@ -27,10 +27,12 @@ export const Footer = () => {
 
                 <div className="hidden md:flex flex-row gap-[24px] items-center">
                     <a href="https://www.linkedin.com/in/matthew-carmichael/" rel="noopener" target="_blank">
-                        <img src="/LI-In-Bug.png" alt="LinkedIn Icon logo" className="h-[32px] aspect-auto" />
+                        <img src="/LI-In-Bug.png" alt="LinkedIn Icon logo" className="h-[32px] aspect-auto dark:hidden block" />
+                        <img src="/InBug-White.png" alt="LinkedIn Icon logo" className="h-[32px] aspect-auto dark:block hidden" />
                     </a>
                     <a href="https://github.com/mc-011g" rel="noopener" target="_blank">
-                        <img src="/github-mark.svg" alt="GitHub Icon logo" className="size-[32px]" />
+                        <img src="/github-mark.svg" alt="GitHub Icon logo" className="size-[32px] dark:hidden block" />
+                        <img src="/GitHub_Invertocat_White.svg" alt="LinkedIn Icon logo" className="h-[32px] aspect-auto dark:block hidden" />
                     </a>
                 </div>
             </div>

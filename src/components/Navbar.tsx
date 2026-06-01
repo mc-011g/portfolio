@@ -21,10 +21,12 @@ export const Navbar = () => {
                     <a href="/#projects" className="h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Projects</a>
                     <a href="/#contact-me" className=" h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Contact Me</a>
                     <a href="https://www.linkedin.com/in/matthew-carmichael/" rel="noopener" target="_blank">
-                        <img src="/LI-In-Bug.png" alt="LinkedIn Icon logo" className="h-[32px] aspect-auto" />
+                        <img src="/LI-In-Bug.png" alt="LinkedIn Icon logo" className="h-[32px] aspect-auto dark:hidden block" />
+                        <img src="/InBug-White.png" alt="LinkedIn Icon logo" className="h-[32px] aspect-auto dark:block hidden" />
                     </a>
                     <a href="https://github.com/mc-011g" rel="noopener" target="_blank">
-                        <img src="/github-mark.svg" alt="GitHub Icon logo" className="size-[32px]" />
+                        <img src="/github-mark.svg" alt="GitHub Icon logo" className="size-[32px] dark:hidden block" />
+                        <img src="/GitHub_Invertocat_White.svg" alt="GitHub Icon logo" className="size-[32px] dark:block hidden" />
                     </a>
                 </div>
 
@@ -43,12 +45,12 @@ export const Navbar = () => {
                     <div className="flex flex-col lg:hidden gap-[24px]">
                         <div className="flex flex-col gap-[8px]">
                             <a href="/#about-me" onClick={toggleDropdown} className="h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition duration-300">About Me</a>
-                            <a href="/#skills" onClick={toggleDropdown} className="h-[32px]  hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Skills</a>
+                            <a href="/#skills" onClick={toggleDropdown} className="h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Skills</a>
                             <a href="/#projects" onClick={toggleDropdown} className="h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Projects</a>
-                            <a href="/#contact-me" onClick={toggleDropdown} className=" h-[32px]  hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Contact Me</a>
+                            <a href="/#contact-me" onClick={toggleDropdown} className=" h-[32px] hover:border-b-2 hover:font-bold hover:text-indigo-600 transition">Contact Me</a>
                         </div>
 
-                        <div className="flex flex-row gap-[24px]" id="abc">
+                        <div className="flex flex-row gap-[24px]">
                             <a href="https://www.linkedin.com/in/matthew-carmichael/" rel="noopener" target="_blank">
                                 <img src="/LI-In-Bug.png" alt="LinkedIn Icon logo" className="h-[32px] aspect-auto" />
                             </a>
